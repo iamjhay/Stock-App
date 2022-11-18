@@ -1,6 +1,9 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![screencapture-stock-app-omega-vercel-app-2022-11-18-19_51_06](https://user-images.githubusercontent.com/88254313/202780642-40bb3b56-0fbd-45d7-82c5-3b8add88f474.png)
+
+
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), tailwindcss , recharts and finnhub-api.
 
 ## Available Scripts
 
