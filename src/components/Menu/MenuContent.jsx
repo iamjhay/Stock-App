@@ -11,9 +11,9 @@ const MenuContent = () => {
   return (
     <div className="menu-holder">
       <div
-        className={`fixed w-screen h-screen text-white top-0 left-0 menu-inside ${
+        className={`fixed w-screen xs:w-2/3 md:w-1/2 h-screen text-white top-0 left-0 menu-inside z-50 overflow-hidden ${
           darkMode ? "bg-gray-900" : "bg-black"
-        }  z-50 ${open ? "translate-x-0" : "-translate-x-full"}
+        }   ${open ? "translate-x-0 " : "-translate-x-full"}
         `}
       >
         <XMarkIcon
@@ -24,13 +24,17 @@ const MenuContent = () => {
           } `}
           onClick={() => setOpen(false)}
         />
-        <div className="relative left-14 sm:left-20 md:left-[220px] top-24 md:top-[100px] overflow-hidden w-auto ">
+        <div
+          className={`relative  top-32 md:top-[130px] overflow-hidden w-auto menu-inside left-14 ${
+            open ? "!left-14 !sm:left-20 !md:left-[220px]" : ""
+          } `}
+        >
           <ul className="internal-nav-links">
             {internalLinks.map((link, index) => (
               <li
                 key={index}
                 className={`mb-4 menu-inside ${
-                  open ? `translate-x-0 opacity-100` : `-translate-x-[400px]`
+                  open ? `translate-x-0` : `-translate-x-full`
                 }`}
                 style={{
                   transitionDelay: open
@@ -53,13 +57,13 @@ const MenuContent = () => {
             {ExternalLinks.map((link, index) => (
               <div
                 className="overflow-hidden mr-4 last-of-type:mr-0"
-                key={link.url}
+                key={index}
               >
                 <li
                   className={`h-6 w-6 sm:h-8 sm:w-8 transition duration-700 ${
                     open
                       ? `translate-x-0 opacity-100 `
-                      : `-translate-x-[400px] opacity-0`
+                      : `-translate-x-full opacity-0`
                   }`}
                   style={{
                     transitionDelay: open

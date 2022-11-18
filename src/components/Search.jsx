@@ -59,7 +59,7 @@ const Search = () => {
           className={`w-full px-4 py-2 focus:outline-none border-0 rounded-md ${
             darkMode ? "bg-gray-900" : null
           }`}
-          placeholder="Search stock..."
+          placeholder="Search stock by symbols ..."
           onChange={(e) => setInput(e.target.value)}
           onBlur={(e) => setInput(e.target.value)}
           onInput={updateBestMatches}
