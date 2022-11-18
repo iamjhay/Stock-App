@@ -1,4 +1,4 @@
-
+## Live
 This Project Is Running Live : [STOCK-APP](https://stock-9hp0heuna-iamjhay.vercel.app/)
 
 
@@ -14,14 +14,15 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
-### `npm start` to run the code if you cloned it
+`npm start` 
+Runs the code if you cloned it
 
-### `npm test` to launch the test runner in the interactive watch mode
+`npm test` 
+Launches the test runner in the interactive watch mode
 
-### `npm run build` Builds the app for production to the `build` folder.\
-
-### `npm run eject`
-
+`npm run build` 
+Builds the app for production to the `build` folder.\
 
 
-**Happy Coding! **
+
+### `Happy Coding!`
