@@ -82,37 +82,37 @@ export const internalLinks = [
   },
   {
     url: "/",
-    component: <span>Studio</span>,
+    component: <span>Stocks</span>,
   },
   {
     url: "/",
-    component: <span>Contribution</span>,
+    component: <span>Company</span>,
   },
   {
     url: "/",
-    component: <span>Career</span>,
+    component: <span>Contributions</span>,
   },
 ];
 
 export const ExternalLinks = [
   {
-    url: "www.facebook.com",
+    url: "/",
     component: <AtSymbolIcon />,
   },
   {
-    url: "www.Instagram.com",
+    url: "/",
     component: <CameraIcon />,
   },
   {
-    url: "www.youtube.com",
+    url: "/",
     component: <VideoCameraIcon />,
   },
   {
-    url: "www.dribble.com",
+    url: "/",
     component: <ChatBubbleOvalLeftEllipsisIcon />,
   },
   {
-    url: "www.twitter.com",
+    url: "/",
     component: <CheckBadgeIcon />,
   },
 ];

@@ -28,7 +28,7 @@ const SearchResults = ({ results }) => {
           onClick={hideSearch}
           className={`${
             openMobileSearch ? "bottom-0 h-screen border-0" : "h-64 border-2"
-          } absolute top-12  w-full rounded-md overflow-y-scroll ${
+          } absolute top-12 w-full rounded-md overflow-y-scroll ${
             darkMode
               ? "bg-gray-900 border-gray-800 custom-scrollbar custom-scrollbar-dark"
               : "bg-white border-neutral-200 custom-scrollbar"

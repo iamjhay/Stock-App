@@ -27,7 +27,7 @@ const Header = ({ name, logo }) => {
               }  rounded-lg sm:shadow-2xl mr-2 sm:p-2`}
             >
               <div className="animate-pulse">
-                <div className="flex">
+                <div className="flex gap-2 sm:gap-0">
                   <div className="h-8 w-10 sm:h-10 sm:w-12 bg-gray-400 rounded-[100%]"></div>
                   <div className="w-full ml-2 sm:ml-5">
                     <div className="h-3 w-24 sm:w-48 sm:h-4 my-1 bg-gray-400 rounded"></div>

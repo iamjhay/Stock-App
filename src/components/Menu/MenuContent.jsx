@@ -67,12 +67,12 @@ const MenuContent = () => {
                       : `${index * 100}ms`,
                   }}
                 >
-                  <a
-                    href={link.url}
+                  <Link
+                    to={link.url}
                     className="transition hover:text-gray-300 hover:scale-120"
                   >
                     {link.component}
-                  </a>
+                  </Link>
                 </li>
               </div>
             ))}
