@@ -4,7 +4,7 @@
 
 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), tailwindcss(https://tailwindcss.com/) , recharts(https://recharts.org/) and finnhub-api(https://finnhub.io).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), [tailwindcss](https://tailwindcss.com/) , [Recharts](https://recharts.org/) and [Finnhub-api](https://finnhub.io).
 
 ## Available Scripts
 
