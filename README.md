@@ -1,6 +1,7 @@
 ## Live
 This Project Is Running Live : [STOCK-APP](https://stock-9hp0heuna-iamjhay.vercel.app/)
 
+![02  Onboard](https://github.com/iamjhay/Stock-App/assets/88254313/7e8612ec-a392-45dd-9265-428b0719c220)
 
 ![screencapture-stock-app-omega-vercel-app-2022-11-18-19_51_06](https://user-images.githubusercontent.com/88254313/202780642-40bb3b56-0fbd-45d7-82c5-3b8add88f474.png)
 ![screencapture-localhost-3000-2022-11-18-19_55_07](https://user-images.githubusercontent.com/88254313/202781428-e3f1e8f5-620c-4f12-90c8-1b1c56988156.png)
